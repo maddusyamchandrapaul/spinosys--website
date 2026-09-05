@@ -1120,6 +1120,84 @@
 
 </footer>
 
+    <!-- =========================
+        Enquiiry form
+    ========================= -->
+
+
+    <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+
+    <!-- Web3Forms Access Key -->
+    <input type="hidden" name="access_key" value="bb81dd2a-0d86-458a-87d8-6a4c5f6bcf11">
+
+    <!-- Email Subject -->
+    <input type="hidden" name="subject" value="New Spinosys Website Enquiry">
+
+    <!-- From Name -->
+    <input type="hidden" name="from_name" value="Spinosys Website">
+
+    <div class="form-group">
+        <label>Your Name</label>
+        <input
+            type="text"
+            name="name"
+            placeholder="Enter your name"
+            required
+        >
+    </div>
+
+    <div class="form-group">
+        <label>Email Address</label>
+        <input
+            type="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+        >
+    </div>
+
+    <div class="form-group">
+        <label>Phone Number</label>
+        <input
+            type="tel"
+            name="phone"
+            placeholder="Enter your phone number"
+        >
+    </div>
+
+    <div class="form-group">
+        <label>Company / Organization</label>
+        <input
+            type="text"
+            name="company"
+            placeholder="Company name"
+        >
+    </div>
+
+    <div class="form-group">
+        <label>Tell us about your requirement</label>
+        <textarea
+            name="message"
+            rows="6"
+            placeholder="Describe your project or requirement..."
+            required
+        ></textarea>
+    </div>
+
+    <!-- Spam Protection -->
+    <input
+        type="checkbox"
+        name="botcheck"
+        class="hidden"
+        style="display:none;"
+    >
+
+    <button type="submit" class="submit-button">
+        Send Message →
+    </button>
+
+</form>
+
 
 <script src="script.js"></script>
 
